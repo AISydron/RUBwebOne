@@ -1,0 +1,128 @@
+header{
+    width: 100%;
+}
+
+.logoContainer{
+    display: grid;
+}
+
+
+
+
+.block-Navi{
+    background-color: #17365c;
+    height: 65px;
+    
+}
+
+.green-Border{
+    border-top: 6px solid #8eb020;
+}
+
+a h3{
+    color: white;
+}
+
+.contentBox{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    height: 255px;
+}
+
+article{
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+section{
+    
+    margin-bottom: 1%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    section{
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    section{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    section{
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #logoLeft {
+        width: 100%;
+        height: 114px;
+        display: inline;
+    }
+
+
+    #logoLeft img {
+        width: 25%;
+        margin-left: 5%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        float: left;
+        display: block;
+    }
+
+    #logoRight img {
+        width: 15%;
+        margin-left: 1%;
+        margin-top: -12%;
+        margin-bottom: 1%;
+        float: left;
+        display: block;
+    }
+
+    #logoRight {
+        display: inline;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #logoLeft {
+        width: 100%;
+        height: 114px;
+        display: inline;
+    }
+
+    #logoLeft img {
+        width: 25%;
+        margin-left: 5%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        float: left;
+        display: block;
+    }
+
+    #logoRight img {
+        width: 15%;
+        margin-left: 1%;
+        margin-top: -12%;
+        margin-bottom: 1%;
+        float: left;
+        display: block;
+    }
+
+    #logoRight {
+        display: inline;
+    }
+}

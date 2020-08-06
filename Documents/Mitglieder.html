@@ -1,0 +1,482 @@
+<html>
+<head>
+    <!--Meta-->
+    <title>RUB - Neurophysiologie</title>
+    <meta charset="utf-8">
+    <!--CSS-->
+    <link rel="stylesheet" href="../Stylesheets/stylesheet1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!---->
+
+</head>
+<body>
+    <header>
+        <div class="logoContainer">
+            <div>
+                <p id="logoLeft">
+                    <img src="../Pictures/LogoRUBbig.PNG"><br>
+                    <img src="../Pictures/LogoNeuroPhysnormal.PNG">
+                </p>
+                <p id="logoRight">
+                    <img src="../Pictures/logoRUBright.png" style="float: right; margin-right: 5%;">
+                </p>
+            </div>
+        </div>
+        <div class="block-Navi">
+            <div class="green-Border"></div>
+
+            <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color:#17365c;">
+                <a class="navbar-brand" href="../Index.html">
+                    <img src="../Pictures/logo_neurophys.png" width="30" height="30" alt="HOME">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Kontakt
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Sekretariat.html">Sekretariat</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="Anreise.html">Adresse/ Anreise</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Mitglieder/ Gruppe
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Mitglieder.html">Alle Mitglieder</a>
+                                <a class="dropdown-item" href="PostDocs.html">PostDocs</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="ManahanVaughenLab.html">Manahan-Vaughen Lab</a>
+                                <a class="dropdown-item" href="FunkeLab.html">Funke Lab</a>
+                                <a class="dropdown-item" href="EyselLab.html">Eysel Lab</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Lehre und Betreuung
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Lehre.html">Übersicht</a>
+                                <a class="dropdown-item" href="Studenten.html">MD/ PhD/ MSc/ BSc Studenten</a>
+                                <a class="dropdown-item" href="GastStudent.html">Gast Studierende</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Forschung
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="ManahanVaughenLab.html">Learning and Memory(Manahan-Vaughen Lab)</a>
+                                <a class="dropdown-item" href="FunkeLab.html">AG Experimentelle Kortikale Plastizität(Funke Lab)</a>
+                                <a class="dropdown-item" href="EyselLab.html">Experimentelle Neurophysiologie(Eysel Lab)</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Service
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="OffeneStellen.html">Offene Stellen</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="Veroeffentlichungen.html">Veröffentlichung</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Links</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <article style="margin-left:10%;margin-right:10%;">
+
+        <h1>Alle Mitglieder</h1>
+        <p>Here u can find all Members of the Department</p>
+
+        
+            <style type="text/css">tr:hover{background-color: #ffff99;}</style>
+            
+            <table class="table table-hover" width="100%;">
+                <tbody>
+                    <tr style="vertical-align: middle;">
+                        <th scope="col" style="font-weight: bold; text-align: center;"></th>
+                        <th scope="col" style="font-weight: bold; text-align: center;">Name</th>
+                        <th scope="col" style="font-weight: bold; text-align: center;">Stelle</th>
+                        <th scope="col" style="font-weight: bold; text-align: center;">Forschungsgruppe</th>
+                        <th scope="col" style="font-weight: bold; text-align: center;">E-Mail</th>
+                    </tr>
+                    <tr style="vertical-align: middle">
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Manahan.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Manahan-Vaughan, Denise, Prof. Dr.</td>
+                        <td style="text-align: center;">Abteilungsleiterin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:denise.manahan-vaughan@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Babushkina, Natalia</td>
+                        <td style="text-align: center;">Doktorandin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:natalie.babushkina@gmail.com" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Böge, Juliane</td>
+                        <td style="text-align: center;">Techn. Assistentin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:juliane.boege@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/HeideBrusis.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Brusis, Heide</td>
+                        <td style="text-align: center;">Sekretariat</td>
+                        <td style="text-align: center;"></td>
+                        <td style="text-align: center;"><a href="mailto:heide.brusis@rub.de,lmr@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Violeta Caragea.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Caragea, Violeta</td>
+                        <td style="text-align: center;">Doktorandin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:Violeta-Maria.Caragea@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Colitti-Klausnitzer, Jens</td>
+                        <td style="text-align: center;">Techn. Assistent</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:jens.klausnitzer@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Laura Dólon.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Dolón, Laura</td>
+                        <td style="text-align: center;">Doktorandin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:Laura.Dolon@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Domasik.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Domasik, Patrik</td>
+                        <td style="text-align: center;">Medizin. Doktorand</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:patrick.domasik@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Erdmann, Milan</td>
+                        <td style="text-align: center;">Student. Hilfskraft</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:Milan.Erdmann@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Miroslav Feccko.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Fecko, Miroslav</td>
+                        <td style="text-align: center;">Doktorand</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:Miroslav.Fecko@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Funke, Klaus Prof. Dr.</td>
+                        <td style="text-align: center;">Professor</td>
+                        <td style="text-align: center;">ECP</td>
+                        <td style="text-align: center;"><a href="mailto:klaus.funke@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Dr. Hardy Hagena.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Hagena, Hardy Dr.</td>
+                        <td style="text-align: center;">Wiss. Mitarbeiter</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:hardy.hagena@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Xavier.JPG" style="width: 25%;"></td>
+                        <td style="text-align: center;">Helluy, Xavier Dr.</td>
+                        <td style="text-align: center;">Wiss. Mitarbeiter</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:xavier.helluy@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/hoang.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Hoang, Thu-Huong</td>
+                        <td style="text-align: center;">Doktorandin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:thuhuong.hoang@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="vertical-align: middle">
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Hoffmann, André</td>
+                        <td style="text-align: center;">Student. Hilfskraft</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:andre.hoffmann-q5i@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Kollosch, Nadine</td>
+                        <td style="text-align: center;">Tierpflegerin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:Nadine.Kollosch@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Krenzek, Beate</td>
+                        <td style="text-align: center;">Techn. Assistentin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:Beate.Krenzek@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Hanna Kruse.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Kruse, Hanna</td>
+                        <td style="text-align: center;">Doktorandin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:hanna.kruse@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>                        
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Küsener, Petra</td>
+                        <td style="text-align: center;">Techn. Assistentin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:petra.kuesener@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Dr. Marta Méndez López.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Méndez López, Marta Dr.</td>
+                        <td style="text-align: center;">Wiss. Mitarbeiterin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:marta.mendezlopez@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Neubacher, Ute</td>
+                        <td style="text-align: center;">Techn. Assistentin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:ute.neubacher@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="MitgliederBilder/neumann.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Neumann, Olga</td>
+                        <td style="text-align: center;">Sekretariat SFB 874</td>
+                        <td style="text-align: center;"></td>
+                        <td style="text-align: center;"><a href="mailto:olga.neumann@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Pfeffel, Katharina</td>
+                        <td style="text-align: center;">Student. Hilfskraft</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:katharina.pfeffel@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Preiß, Belinda</td>
+                        <td style="text-align: center;">Student. Hilfskraft</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:belinda.preiss@gmail.com" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Abdelrahman Rayan.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Rayan, Abdelrahman</td>
+                        <td style="text-align: center;">Doktorand</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:abdelrahman.rayan@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Reiterer, Pia Dr.</td>
+                        <td style="text-align: center;">Wiss. Mitarbeiter</td>
+                        <td style="text-align: center;">ECP</td>
+                        <td style="text-align: center;"><a href="mailto:pia.reiterer@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Reker, Anne-Katrin</td>
+                        <td style="text-align: center;">Stud. Hilfskraft</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:anne-katrin.reker@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Gabriele Russo.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Russo, Gabriele</td>
+                        <td style="text-align: center;">Doktorand</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:gabriele.russo@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Nithya Sethumadhavan.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Sethumadhavan, Nithya</td>
+                        <td style="text-align: center;">Doktorandin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:nithya.sethumadhavan@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Shchyglo, Olena</td>
+                        <td style="text-align: center;">Techn. Assistentin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:olena.shchyglo@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/Martin_Stacho_resized.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Stacho, Martin</td>
+                        <td style="text-align: center;">Wiss. Mitarbeiter</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:martin.stacho@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Stein, Kim</td>
+                        <td style="text-align: center;">Stud. Hilfskraft</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:kimberly.stein@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Steinkamp, Joy</td>
+                        <td style="text-align: center;">Stud. Hilfskraft</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:joysteinkamp@web.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Documents/MitgliederBilder/strauch.jpg" style="width: 25%;"></td>
+                        <td style="text-align: center;">Strauch, Christina Dr.</td>
+                        <td style="text-align: center;">Wiss. Mitarbeiterin</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:christina.strauch@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr style="background-color: #E8EFCF;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Weber, Jens Dr.</td>
+                        <td style="text-align: center;">Wiss. Mitarbeiter</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:jens.p.weber@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 25%;"><img class="rounded" src="../Pictures/defaultPerson.png" style="width: 25%;"></td>
+                        <td style="text-align: center;">Wenzlaff, Sebastian</td>
+                        <td style="text-align: center;">Masterstudent</td>
+                        <td style="text-align: center;">LMR</td>
+                        <td style="text-align: center;"><a href="mailto:sebastian.wenzlaff@rub.de" target="_top"><button type="button" class="btn btn-info">Send</button></a></td>
+                    </tr>
+            </tbody>
+        </table>
+
+
+    </article>
+    <footer>
+        <div class="block-Navi">
+            <div class="green-Border"></div>
+            <div style="text-align:center;">
+                <a href="https://www.ruhr-uni-bochum.de/de/impressum" style="color:white;">Impressum</a>
+                <a href="https://www.ruhr-uni-bochum.de/lmr/copyright/index.html" style="color:white;">Urheberschutz</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

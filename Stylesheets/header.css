@@ -1,0 +1,75 @@
+header{
+  width: 100%;
+  height: 114px;
+  background-color: #17365c;
+}
+
+div img{
+  width: 100%;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  float: left;
+}
+
+.block-Navi{
+  display: inline;
+}
+
+ul{
+  display: inline;
+
+}
+
+li{
+  width: 10%;
+  text-decoration: none;
+  float: left;
+  flex-direction: row;
+}
+
+@font-face{
+  font-family: "FlamaBold";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("FlamaBold.otf") format ("woff2");
+
+}
+
+a{
+  text-decoration: none;
+  padding: 0 14px 26px;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+a:hover{
+  outline: 0;
+}
+
+/*Extra Small devices*/
+@media only screen and(max-width:600px){
+
+}
+
+/*Small devices*/
+@media only screen and(min-width:600px){
+
+}
+
+/*Medium devices*/
+@media only screen and(min-width:768px){
+
+}
+
+/*Large devices*/
+@media only screen and(min-width:992px){
+
+}
+
+/*Extra Large devices*/
+@media only screen and(min-width:600px){
+
+}

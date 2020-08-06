@@ -1,0 +1,141 @@
+header{
+    width: 100%;
+}
+
+.block-Navi{
+    background-color: #17365c;
+    height: 65px;
+    
+}
+
+.green-Border{
+    border-top: 6px solid #8eb020;
+}
+
+section{
+    
+}
+
+article{
+    margin-top: 1%;
+    margin-bottom: 1%; 
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    #logoRight{
+        display: inline;
+        float: right;
+    }
+
+    #logoLeft{
+        display: inline-block;
+    }
+
+    .logoContainer{
+        margin-bottom: 5%;
+    }
+
+    #logoRight > img:nth-child(1){
+        display: none;
+    }
+
+    #logoLeft > img:nth-child(1){
+        width: 50%;
+    }
+
+    #logLeft > img:nth-child(2){
+        width: 50%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    #logoRight{
+        display: inline;
+        float: right;
+    }
+
+    #logoLeft{
+        display: inline-block;
+    }
+
+    .logoContainer{
+        margin-bottom: 5%;
+    }
+
+    #logoRight > img:nth-child(1){
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    #logoRight{
+        display: inline;
+        float: right;
+    }
+
+    #logoLeft{
+        display: inline-block;
+    }
+
+    .logoContainer{
+        margin-bottom: 5%;
+    }
+
+    #logoRight > img:nth-child(1){
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+    #logoRight{
+        display: inline;
+        float: right;
+    }
+
+    #logoLeft{
+        display: inline-block;
+    }
+
+    .logoContainer{
+        margin-bottom: 5%;
+    }
+
+    #logoRight > img:nth-child(1){
+        margin-right: 15%;
+        width: 40%;
+        display: inline;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    #logoRight{
+        display: inline;
+        float: right;
+    }
+
+    #logoLeft{
+        display: inline-block;
+    }
+
+    .logoContainer{
+        margin-bottom: 5%;
+    }
+
+    #logoRight > img:nth-child(1){
+        margin-right: 15%;
+        width: 40%;
+        display: inline;
+    }
+    
+}
